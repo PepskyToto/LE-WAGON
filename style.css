@@ -1,0 +1,86 @@
+
+body {
+  text-align: center;
+  background-color: #232121;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #807c7c;
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+p {
+  color: #666;
+  padding: 20px;
+}
+
+#buton-wagon {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #130687;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #747171;
+  margin-top: 15px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul li a i {
+  color: #db9834;
+  font-size: 2em;
+  margin: 10 3px;
+  margin-top: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgb(236, 236, 236);
+  padding: 30px;
+  border: 3px solid rgba(168, 164, 164, 0.418);
+  border-radius: 60px;
+  box-shadow: 0px 0px 19px rgba(255, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 3px;
+}
+
+@media (max-width: 30px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 10px;
+  }
+}
